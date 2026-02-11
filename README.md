@@ -31,12 +31,12 @@ The main goals of this project are:
 
 ## 📂 Dataset Information -->>>>
 
-* **Source** : SQL Dataset.xlsx
+* **Source** :  SQL Dataset.xlsx
 * **File Used** :
-Customers.csv  
-Orders.csv
-Products.csv
-Regions.csv 
+- Customers.csv  
+- Orders.csv
+- Products.csv
+- Regions.csv 
 
 🔗 **[View Excel Dataset](https://github.com/dimple-shah-au13/Global-Trading-Sales-Analysis/blob/main/SQL%20Dataset.xlsx)**
 
@@ -127,13 +127,14 @@ else
     [FullName]
 
 5. Remove Original Column
-6. Standardize Incorrect City Spellings
+6. Standardize Incorrect City Spellings :
+
 Example:
 
-Lã³Dz            Lodz
-Krakã³W          Krakow
-Dã¼Sseldorf      Dusseldorf
-Mã¡Laga          Malaga
+- Lã³Dz            Lodz
+- Krakã³W          Krakow
+- Dã¼Sseldorf      Dusseldorf
+- Mã¡Laga          Malaga
 
 # 👤 Cleaning the CustomerName Column (Customers Table) :
 
@@ -174,7 +175,8 @@ DIVIDE(
 📌 **Total Quantity** = SUM('salesdb orders'[Quantity])
 
 
-📌 **Revenue Contribution %** = DIVIDE([Total Sales], CALCULATE([Total Sales],ALL('salesdb products'),ALL('salesdb customers'),ALL('salesdb regions')))
+📌 **Revenue Contribution %** = 
+DIVIDE([Total Sales], CALCULATE([Total Sales],ALL('salesdb products'),ALL('salesdb customers'),ALL('salesdb regions')))
 
 
 📌 **Sales YTD** = TOTALYTD(SUM('salesdb orders'[LineTotal]),'salesdb orders'[OrderDate]) 
@@ -391,6 +393,8 @@ SalesAmount
 ## 📷 Dashboard Interaction -->>>>
 
 🔗 **[View Raw Global Trading Sales Analysis Dashboard](https://github.com/dimple-shah-au13/Global-Trading-Sales-Analysis/blob/main/Sales%20Analysis%20-%20SQL%20Project.pbix)**
+
+⚠️ Note: This dashboard file must be opened using **Microsoft Power BI Desktop** by clicking on View raw.
 
 ## 🔍 Business Recommendations
 
