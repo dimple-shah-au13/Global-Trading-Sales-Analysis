@@ -87,9 +87,9 @@ Ensured referential integrity
 
 🔗 **[View All Queries](https://github.com/dimple-shah-au13/Global-Trading-Sales-Analysis/blob/main/Queries.sql)**
 
-## 🔹 Total Sales by Product
-## 🔹 Sales by Region 
-## 🔹 Top 10 Products
+🔹 Total Sales by Product
+🔹 Sales by Region 
+🔹 Top 10 Products
 
 
 ## 🔄 Data Cleaning & Transformation (Power Query)
@@ -131,10 +131,10 @@ else
 
 Example:
 
-- Lã³Dz            Lodz
-- Krakã³W          Krakow
-- Dã¼Sseldorf      Dusseldorf
-- Mã¡Laga          Malaga
+- Lã³Dz          --   Lodz
+- Krakã³W        --   Krakow
+- Dã¼Sseldorf    --   Dusseldorf
+- Mã¡Laga        --   Malaga
 
 # 👤 Cleaning the CustomerName Column (Customers Table) :
 
